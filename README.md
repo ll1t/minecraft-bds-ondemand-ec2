@@ -15,7 +15,7 @@ bash, ssh, rsync, curl, aws-cli
 6. Place the minecraft-bds installation you want to run into ./minecraft-bds folder. If you start with a fresh server, extract the archive to this folder, not into another subfolder.
 7. Make sure to keep the files minecraft-bds.service and run-bds.sh in the folder ./minecraft-bds/
 8. The remaining configuration can be found in ```config```.  
-9. You will need to figure out how to update your dynamic DNS hostname. The provider I use allows me to send a HTTPS GET request with basic authentication to update the hostname. You will to adapt this to whatever your provider requires. Change ```update-dyndns.sh``` accordingly, it will not work as it is right now, as it contains placeholders instead of my provider's URL.
+9. You will need to figure out how to update your dynamic DNS hostname. The provider I use allows me to send a HTTPS GET request with basic authentication to update the hostname. You will need to adapt this to whatever your provider requires. Change ```update-dyndns.sh``` accordingly, it will not work as it is right now, as it contains placeholders instead of my provider's URL.
 
 ## Using it
 1. ```run.sh``` to deploy and run the server
