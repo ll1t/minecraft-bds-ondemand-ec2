@@ -1,0 +1,10 @@
+export SSHKEYLOCATION="/absolute/path/to/your/ssh-key.pem"
+export DDNSU="DYNDNS USER NAME"
+export DDNSPW="DYNDNS PASSWORD"
+export GAMESERVERFQDN="your.host.example.com"
+
+# AWS things
+export AWSPROFILE="profile name as found in in ~/.aws/credentials" 
+export AWSREGION="eu-central-1" # this is Frankfurt/Main, change to what you want 
+export AWSKEYNAME="name of the public key you received from AWS. Should be placed in the location as seen in the first line" 
+export AWSSECGROUPIDS="security group id that allows access to SSH and minecraft bds ports"
